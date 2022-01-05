@@ -11,3 +11,10 @@ def average(x,y):
    z=(x/y)%2
    return (z)
 
+#Fictorial
+def factorial(x):
+   for i in range(x):
+      fact=0
+      fact=fact*i
+   return fact
+
