@@ -18,3 +18,16 @@ def factorial(x):
       fact=fact*i
    return fact
 
+#product of no
+def table(x):
+   count=1
+   product=1
+   # x=int(input())
+   while count<=10:
+      product=count*x
+      print(x,"*",count,"=", product)
+      count=count+1
+
+if __name__=="__main__":
+   table(4)
+
