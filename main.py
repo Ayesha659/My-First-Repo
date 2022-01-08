@@ -38,7 +38,17 @@ def LCM(x,y):
          a=a+1
       break
 
+#Print sterik
+def sterik(x):
+   k=1
+   for i in range(0,x):
+      for j in range(0,i+1):
+         print("*", end="")
+      print()
+
+
 
 if __name__=="__main__":
-   LCM(2,6)
+   # LCM(2,6)
+   sterik(5)
 
