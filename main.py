@@ -28,6 +28,17 @@ def table(x):
       print(x,"*",count,"=", product)
       count=count+1
 
+#LCM
+def LCM(x,y):
+   while(True):
+      a=max(x,y)
+      if a%x==0 and a%y==0:
+         print("LCM= ",a)
+      else:
+         a=a+1
+      break
+
+
 if __name__=="__main__":
-   table(4)
+   LCM(2,6)
 
