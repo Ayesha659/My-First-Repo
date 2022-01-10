@@ -46,17 +46,26 @@ def sterik(x):
          print("*", end="")
       print()
 
-for i in range(int(input())):
-        a=[]
-        b=[]
-        name = input()
-        score = float(input())
-        a.append(name)
-        b.append(score)
-        c=[]
-        c.append(a)
-        c.append(b)
-        print(c)
+# for i in range(int(input())):
+#         a=[]
+#         b=[]
+#         name = input()
+#         score = float(input())
+#         a.append(name)
+#         b.append(score)
+#         c=[]
+#         c.append(a)
+#         c.append(b)
+#         print(c)
+def addition(num):
+   integer=0
+   check=0
+   sum=0
+   while(check<num):
+      sum+sum+check
+      check=check+1
+   print(sum)
+      
 
 if __name__=="__main__":
    # LCM(2,6)
