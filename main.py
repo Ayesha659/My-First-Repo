@@ -65,6 +65,16 @@ def addition(num):
       sum+sum+check
       check=check+1
    print(sum)
+
+# swap 
+def swap_case(s):
+    a=""
+    for i in s:
+        if i.isupper():
+           a+= i.lower()
+        else:
+           a+= i.upper()
+    return(a)
       
 
 if __name__=="__main__":
