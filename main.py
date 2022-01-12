@@ -75,6 +75,13 @@ def swap_case(s):
         else:
            a+= i.upper()
     return(a)
+
+# assign value in string
+def mutate_string(s, i, c):
+    lis=list(s)
+    lis[i]=c
+    s = ''.join(lis)
+    return(s)
       
 
 if __name__=="__main__":
