@@ -45,18 +45,21 @@ def sterik(x):
       for j in range(0,i+1):
          print("*", end="")
       print()
+# list in list
 
-# for i in range(int(input())):
-#         a=[]
-#         b=[]
-#         name = input()
-#         score = float(input())
-#         a.append(name)
-#         b.append(score)
-#         c=[]
-#         c.append(a)
-#         c.append(b)
-#         print(c)
+   for i in range(int(input())):
+         a=[]
+         b=[]
+         name = input()
+         score = float(input())
+         a.append(name)
+         b.append(score)
+         c=[]
+         c.append(a)
+         c.append(b)
+         print(c)
+
+# addition  
 def addition(num):
    integer=0
    check=0
@@ -84,7 +87,7 @@ def mutate_string(s, i, c):
     return(s)
       
 
-if __name__=="__main__":
-   # LCM(2,6)
-   sterik(5)
+# if __name__=="__main__":
+#    # LCM(2,6)
+#    # sterik(5)
 
