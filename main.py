@@ -86,6 +86,12 @@ def mutate_string(s, i, c):
     s = ''.join(lis)
     return(s)
       
+# equation
+def equation(a,b,c,d):
+   x=a+b
+   y=x*c
+   z=y/d
+   return z
 
 # if __name__=="__main__":
 #    # LCM(2,6)
